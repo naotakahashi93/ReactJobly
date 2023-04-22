@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600;700&display=swap");
+@media screen and (min-width: 768px) {
+
+#homediv{
+    background-color: #6936F5;
+    position: absolute;
+    height: 100%;
+    /* box-shadow: 3px 3px 7px rgb(255, 255, 255) */
+}
+
+#imagediv{
+    background-color:#80DED9;
+    width: 43%;
+    height: 100%;
+    position: relative;
+    float: left;
+    margin-left: 2.5%;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+#JoblyImg{
+    margin-top: 10%;
+    margin-right: 3%;
+    flex-shrink: 0;
+    min-height: 75%;
+    min-width:fit-content;
+    display: inline-block;
+}
+
+#titlediv{
+    background-color: rgb(44, 44, 44);
+    width: 50%;
+    height: 90%;
+    position: relative;
+    left: auto;
+    right: 0%;
+    float: right;
+    border-radius: 50% 0 0 50%;
+    z-index: 1;
+}
+
+#titlesloganwrapper{
+    position: relative;
+    top:-2%;
+    display: inline-block;
+    margin: 0 ;
+    top: 30%;
+    transform: translateY(-40%);
+}
+
+
+#titlejobly{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size:6vw;
+    color: white;
+    text-decoration: underline #80DED9 13.6%;
+    line-height: 1.15;
+    position: relative;
+    top: 4%;
+    margin-left: 10%;
+    width: 85%;
+    display: inline-block;
+}
+
+#sloganwrapper{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+#titleslogan{
+    color: #80DED9;
+    font-size:2.4vw;
+    font-weight: bolder;
+    position: relative;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top:-4%;
+}
+
+#joblyspan{
+    background-color: #80DED9;
+    color: #6936F5 ;
+    display: inline-block;
+    position: relative;
+    text-shadow: 2px 2px 6px rgb(255, 255, 255);
+    width: 40%;
+    z-index: 2;
+}
+#signuploginwrapper{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: 4%;
+}
+#homesignupbtn,
+#homeloginbtn{
+    background-color: #80DED9;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #80DED9;
+    border-width: 1px;
+    color: white;
+    cursor: pointer;
+    font-family: "Quicksand";
+    font-size: 1.8vw;
+    line-height: 140%;
+    margin: 1%;
+    margin-left: 7%;
+}
+
+#welcomebackuser{
+    color:#6936F5;
+    font-family: "Quicksand";
+    font-size:2vw;
+    z-index: 2;
+    position: relative;
+    top: 8%;
+    float: right;
+    margin-right: 2%;
+}
+
+#homediv a{
+    color: #6936F5;
+}
+
+#homesignupbtn:hover,
+#homeloginbtn:hover,
+#homediv a:hover{
+    background-color:#6936f5ac;
+    color: white;
+}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    @import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600;700&display=swap");
+
+    body {
+      margin: 0;
+    }
+    
+    #homediv {
+      background-color: #6936f5;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #imagediv {
+      background-color: #80ded9;
+      width: 100%;
+      height: 40vh;
+      display: flex;
+      /* border-radius: 0 50% 50% 0; */
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #JoblyImg {
+      width: 80%;
+      height: 80%;
+      object-fit: contain;
+    }
+    
+    #titlediv {
+      background-color: rgb(44, 44, 44);
+      width: 100%;
+      height: 60vh;
+      /* border-radius: 50% 0 0 50%; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #titlesloganwrapper {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #titlejobly {
+      font-family: 'Hind Vadodara', sans-serif;
+      font-size: 6vw;
+      color: white;
+      text-decoration: underline #80DED9 13.6%;
+      line-height: 1.15;
+      margin: 0;
+    }
+    
+    #sloganwrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #titleslogan {
+      color: #80DED9;
+      font-size: 2.4vw;
+      font-weight: bolder;
+      margin: 0;
+    }
+    
+    #joblyspan {
+      background-color: #80DED9;
+      color: #6936F5;
+      display: inline-block;
+      text-shadow: 2px 2px 6px rgb(255, 255, 255);
+      width: fit-content;
+      margin: 1rem;
+      padding: 0.2rem 0.5rem;
+    }
+    
+    #signuploginwrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* margin-top: 2rem; */
+    }
+    
+    #homesignupbtn,
+    #homeloginbtn {
+      background-color: #80DED9;
+      border-radius: 8px;
+      border-style: solid;
+      border-color: #80DED9;
+      border-width: 1px;
+      color: white;
+      cursor: pointer;
+      font-family: "Quicksand";
+      font-size: 4vw;
+      line-height: 140%;
+      margin: 1rem;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      width: 100%
+    }   
+    
+    #welcomebackuser{
+    color:#6936F5;
+    font-family: "Quicksand";
+}
+
+#homediv a{
+    color: #6936F5;
+}
+
+#homesignupbtn:hover,
+#homeloginbtn:hover,
+#homediv a:hover{
+    background-color:#6936f5ac;
+    color: white;
+}
+
+}

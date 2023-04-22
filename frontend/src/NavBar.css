@@ -1,0 +1,74 @@
+a.active {
+    color: #80DED9 !important;
+    font-weight:bolder;
+    box-sizing: content-box;
+  }
+  
+a.active:hover {
+    color: #6936F5 !important;
+    font-weight: bold;
+  }
+  
+#menudiv a:hover {
+    text-decoration: none;
+    color: #6936F5 !important;
+    font-weight: bolder;
+    box-shadow: inset 1em 10em #80DED9;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+
+#logoutlink:hover{
+    text-decoration: none;
+    color: #6936F5 !important;
+    box-shadow: inset 1em 10em #80DED9;
+    transition: box-shadow 0.1s ease-in-out;
+  }
+
+#bardiv a{
+  margin-right:3%;
+  margin-left : 3%;
+  font-size: larger;
+  color: white;
+}
+
+#logoutlink{
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  text-decoration: underline;
+  cursor: pointer;
+  color:white ;
+  font-size: large;
+}
+
+#menudiv{
+  margin-right: 0mm;
+  position: relative;
+  width: 80%;
+  text-align: right;
+  margin: auto;
+  z-index: 3;
+}
+
+#bardiv{
+  width: 100%;
+  min-height: 3rem;
+  display: flex;
+  margin-top: 0%;
+  padding-top: 0.8%;
+  background-color: #6936F5;
+  position: relative;
+  z-index: 3;
+}
+
+#joblyhome{
+  margin: auto;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+img{
+  height: 3rem;
+  padding: 3%;
+
+}

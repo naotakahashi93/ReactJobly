@@ -1,0 +1,27 @@
+
+#carddiv{
+    border-style: solid;
+    background-color:rgba(243, 243, 243, 0.953);
+    border-radius: 10px;
+    border-color: #80DED9;
+    margin: 2%;
+    box-shadow: 3px 3px 5px rgb(168, 167, 167);
+}
+
+#carddiv a:hover{
+    text-decoration: none;
+    color: #6936F5 !important;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#carddiv a{
+    color: #6936F5;
+    font-size: large;
+    font-weight:bold;
+}
+
+#appliedbtn{
+    background-color: #80DED9;
+    color: #6936F5
+}
