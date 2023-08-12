@@ -8,6 +8,8 @@
 
 ## Introduction
 
+URL: [https://reactjobly.surge.sh/](https://reactjobly.surge.sh/).
+
 Jobly is a mock job posting website that enables users (job seekers) to search and apply for job openings. The platform utilizes Node.js as the backend and React for the front end. Job names and company names were sourced from a custom API provided by the school.
 
 ## Features
